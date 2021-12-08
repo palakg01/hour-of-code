@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+body,
+html {
+  background-color: #c0dfd9;
+  padding: 16px;
+  font-family: "Roboto";
+}
+
+h1 {
+  text-align: center;
+  color: #0e6154;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #545b5a;
+  font-size: 38px;
+}
+
+p {
+  font-size: 20px;
+  color: #545b5a;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.about-me {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hobby {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.hobbies {
+  padding: 100px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+}
